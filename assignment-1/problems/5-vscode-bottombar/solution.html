@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+        .page {
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            font-family: Arial, sans-serif;
+            column-gap: 2rem;
+        }
+        .para {
+            font-weight: normal;
+        }
+        .right{
+            display: grid;
+            padding-inline: 2.5rem;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        .individual{
+            display: flex;
+            align-items: center;
+        }
+        .individual img{
+            height:40px;
+            width: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <div class="container">
+            <div class="left">
+                <div>
+                    <div>
+                        <h2 class="code">Code in any language</h2>
+                    </div>
+                    <div>
+                        <h4 class="para">VS Code supports almost every major programming language. Several ship in the
+                            box, like JavaScript, TypeScript, CSS, and
+                            HTML, but extensions for others can be found in the VS Code Marketplace.</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="individual"><img src="https://code.visualstudio.com/assets/home/language-js.png" alt="">
+                    <code>JavaScript</code>
+                </div>
+                <div class="individual"><img src="https://code.visualstudio.com/assets/home/language-ts.png" alt="">
+                    <code>TypeScript</code>
+                </div>
+                <div class="individual"><img src="https://code.visualstudio.com/assets/home/language-python.png" alt="">
+                    <code>Python</code>
+                </div>
+                <div class="individual"><img src="https://code.visualstudio.com/assets/home/language-cs.png" alt="">
+                    <code>C#</code>
+                </div>
+                <div class="individual"><img src="https://code.visualstudio.com/assets/home/language-cpp.png" alt="">
+                    <code>C++</code>
+                </div>
+                <div class="individual"><img src="https://code.visualstudio.com/assets/home/language-html.png" alt="">
+                    <code>HTML</code>
+                </div>
+                <div class="individual"><img src="https://code.visualstudio.com/assets/home/language-java.png" alt="">
+                    <code>Java</code>
+                </div>
+                <div class="individual"><img src="https://code.visualstudio.com/assets/home/language-json.png" alt="">
+                    <code>JSON</code>
+                </div>
+                <div class="individual"><img src="https://code.visualstudio.com/assets/home/language-php.png" alt="">
+                    <code>PHP</code>
+                </div>
+                <div class="individual"><img src="https://code.visualstudio.com/assets/home/language-markdown.png" alt="">
+                    <code>Markdown</code>
+                </div>
+                <div class="individual"><img src="https://code.visualstudio.com/assets/home/language-powershell.png" alt="">
+                    <code>Powershell</code>
+                </div>
+                <div class="individual"><img src="https://code.visualstudio.com/assets/home/language-yaml.png" alt="">
+                    <code>YAML</code>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

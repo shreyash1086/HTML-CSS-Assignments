@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .page{
+            display: flex;
+            justify-content: center;
+        }
+        .container{
+            display: flex;
+            width: 100%;
+            max-width: 1200px;
+            height: 80px;
+        }
+        .left{
+            display: flex;
+            flex-grow: 1;
+            align-items: center;
+            background-color: red;
+        }
+        .right{
+            display: flex;
+            flex-grow: 2;
+            align-items: center;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+        <div class="page">
+            <div class="container">
+                <div class="left"><h1>Left</h1></div>
+                <div class="right"><h1>Right</h1></div>
+            </div>
+        </div>
+</body>
+</html>

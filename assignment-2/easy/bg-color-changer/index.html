@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="page">
+        <div class="buttons">
+            <button onclick="changeBgColor('red')" style="cursor: pointer; border: none; border-radius: 10px; background-color: red; padding: 10px 20px;">Red</button>
+            <button onclick="changeBgColor('yellow')" style="cursor: pointer; border: none; border-radius: 10px; background-color: yellow; padding: 10px 20px;">Yellow</button>
+            <button onclick="changeBgColor('black')" style="cursor: pointer; border: none; border-radius: 10px; background-color: black; padding: 10px 20px; color: white;">Black</button>
+            <button onclick="changeBgColor('purple')" style="cursor: pointer; border: none; border-radius: 10px; background-color: purple; padding: 10px 20px;">Purple</button>
+            <button onclick="changeBgColor('green')" style="cursor: pointer; border: none; border-radius: 10px; background-color: green; padding: 10px 20px;">Green</button>
+            <button onclick="changeBgColor('orange')" style="cursor: pointer; border: none; border-radius: 10px; background-color: orange; padding: 10px 20px;">Default</button>
+        </div>
+    </div>
+    <script>
+        document.getElementById("page").style.backgroundColor = "blue";
+
+        function changeBgColor(color){
+            document.getElementById("page").style.backgroundColor = color;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="solution.css">
+</head>
+<body>
+    <div class="page">
+        <button id="start" style="background-color: rgb(114, 34, 189); font-size: 40px; padding: 30px 70px; cursor: pointer; color: white; border: none; border-radius: 10px; ">
+            Start
+        </button>
+        <div class="cards" id="cards">
+            <div class="card">
+                <h1 class="question" id="question"></h1>
+                <div class="options">
+                    <form action="" class="form">
+                        <input type="radio" id="a" name="opt" value="a">
+                        <label id="first" for=""></label>
+                        <br>
+                        <input type="radio" id="b" name="opt" value="b">
+                        <label id="second" for=""></label>
+                        <br>
+                        <input type="radio" id="c" name="opt" value="c">
+                        <label id="third" for=""></label>
+                        <br>
+                        <input type="radio" id="d" name="opt" value="d">
+                        <label id="fourth" for=""></label>
+                        <br>
+                    </form>
+                </div>
+            </div>
+            <button id="submit">Submit</button>
+        </div>
+    </div>
+    <script type="module" src="data.js"></script>
+</body>
+</html>
